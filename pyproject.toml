@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "human-sim-reproductions"
+version = "0.1.0"
+description = "Reproductions of human-simulation papers with local open-weight models, tests and honest reports."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.26", "pandas>=2.0", "scipy>=1.11"]
+
+[project.optional-dependencies]
+local = ["llama-cpp-python>=0.3"]   # local CPU inference; see README for the model files
+dev = ["pytest>=7", "pypdf>=4"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hsr*", "papers*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "papers"]

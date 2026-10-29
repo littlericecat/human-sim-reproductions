@@ -1,0 +1,344 @@
+{
+ "config": {
+  "agents": [
+   "Isabella Rodriguez",
+   "Maria Lopez",
+   "Klaus Mueller",
+   "Sam Moore",
+   "Jennifer Moore",
+   "Tom Moreno",
+   "Jane Moreno",
+   "John Lin",
+   "Eddy Lin",
+   "Mei Lin"
+  ],
+  "n": 10,
+  "days": 2,
+  "step_minutes": 60,
+  "seed": 0,
+  "model": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "embedder": "all-MiniLM-L6-v2-Q8_0.gguf",
+  "start": "2023-02-15T07:00:00"
+ },
+ "llm_calls": 1252,
+ "cassette_entries": 1086,
+ "elapsed_s": 15.2,
+ "diffusion": {
+  "party": {
+   "question": "Did you know there is a Valentine's Day party?",
+   "rows": [
+    {
+     "agent": "Isabella Rodriguez",
+     "answer": "Yes, I know about the Valentine's Day party at Hobbs Cafe. It's a special event planned for February 14th, 2023, from 5pm to 7pm. I'm excited to see everyone there and make it a memorable day for everyone involved.",
+     "yes": true,
+     "verified": true
+    },
+    {
+     "agent": "Maria Lopez",
+     "answer": "Maria Lopez: Yes, I'm aware of Valentine's Day. It's a special day to celebrate love and relationships. I've heard that it's often celebrated with gifts, flowers, and romantic dinners. It's a nice time to spend with loved ones and express affection.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Klaus Mueller",
+     "answer": "Klaus Mueller: No, I didn't know there was a Valentine's Day party.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Sam Moore",
+     "answer": "Sam Moore: Yes, Isabella, there is a Valentine's Day party at Hobbs Cafe. It's a fantastic celebration, and I'm looking forward to it. Let's plan everything together, from decorations to the theme music, so everyone feels truly embraced on this special day.",
+     "yes": true,
+     "verified": true
+    },
+    {
+     "agent": "Jennifer Moore",
+     "answer": "Jennifer Moore: I'm sorry, but I don't recall any specific Valentine's Day party mentioned in my plans or memories. It seems like there might be some confusion or a new event that hasn't been mentioned in my usual routine. I'm currently preparing for an exhibition of my work and mentoring younger artists. If there's anything else I can help with, please let me know.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Tom Moreno",
+     "answer": "Tom Moreno: I'm not really into Valentine's Day parties. I prefer to focus on the day-to-day operations of the store and helping customers with their orders. I don't have any plans for a Valentine's Day party.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Jane Moreno",
+     "answer": "Jane Moreno: Oh, that's great news! I'm looking forward to it. I'll make sure everything is set for the party. Thanks for letting me know.",
+     "yes": true,
+     "verified": true
+    },
+    {
+     "agent": "John Lin",
+     "answer": "John Lin: Yes, I did. It's a great opportunity to celebrate love and relationships. I hope everyone has a wonderful time.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Eddy Lin",
+     "answer": "Eddy Lin: I'm sorry, but I don't know about Valentine's Day parties. I'm focused on my composition project and my studies for the day. Is there anything else I can help you with?",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Mei Lin",
+     "answer": "Mei Lin: I'm not aware of a Valentine's Day party. I'm not particularly interested in such events, as I prefer to focus on my work and family. However, if you could provide more details about the party, I might be able to offer some suggestions or insights based on my experiences.",
+     "yes": false,
+     "verified": false
+    }
+   ],
+   "n": 10,
+   "yes": 3,
+   "verified": 3,
+   "hallucinated": 0,
+   "share_verified": 0.3
+  },
+  "mayor": {
+   "question": "Do you know who is running for mayor?",
+   "rows": [
+    {
+     "agent": "Isabella Rodriguez",
+     "answer": "I'm sorry, but I don't have any information about who is running for mayor. The conversation we had was about Isabella Rodriguez's plans for Valentine's Day at Hobbs Cafe. If you have any other questions about Isabella Rodriguez or Hobbs Cafe, I'd be happy to help.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Maria Lopez",
+     "answer": "I'm sorry, but I don't have any information about Maria Lopez or her plans for Tuesday February 14. The information provided doesn't mention anything about her plans for that day. If you have any other questions or need more information about Maria Lopez, please let me know and I'll do my best to assist you.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Klaus Mueller",
+     "answer": "I'm sorry, but I don't have any information about Klaus Mueller or his plans for Tuesday February 14. The information provided seems to be about a student's daily routine and plans, but it doesn't mention Klaus Mueller or his involvement in the research paper on gentrification. If you have any other questions or need more information about Klaus Mueller's plans, please let me know.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Sam Moore",
+     "answer": "Sam Moore: Yes, I know who is running for mayor. It's Isabella Rodriguez. She's been planning the Valentine's Day party at Hobbs Cafe, and I think it's going to be a fantastic event.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Jennifer Moore",
+     "answer": "Jennifer Moore: I'm sorry, but I don't know who is running for mayor. I'm focused on preparing for my exhibition and mentoring younger artists.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Tom Moreno",
+     "answer": "Tom Moreno: No, I don't know who is running for mayor.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Jane Moreno",
+     "answer": "Jane Moreno: I'm not sure about that. I don't follow politics very closely. I focus more on my daily routine and family life.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "John Lin",
+     "answer": "John Lin: Yes, I'm aware that there are several candidates running for the local mayor election next month. I've been keeping up with the news and am curious about who will be running. I've been asking everyone I meet about the candidates and their platforms.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Eddy Lin",
+     "answer": "Eddy Lin: I'm sorry, but as an AI, I don't have the ability to know who is running for mayor. My knowledge is limited to the information provided to me by the developers of the system. If you have any other questions, feel free to ask.",
+     "yes": false,
+     "verified": false
+    },
+    {
+     "agent": "Mei Lin",
+     "answer": "As a college professor and mother, Mei Lin is likely to be quite busy with her work and family responsibilities. She would not have the time or inclination to engage in political discussions or news about local or national political figures. Therefore, it is unlikely that she would know who is running for mayor.",
+     "yes": false,
+     "verified": false
+    }
+   ],
+   "n": 10,
+   "yes": 0,
+   "verified": 0,
+   "hallucinated": 0,
+   "share_verified": 0.0
+  }
+ },
+ "network": {
+  "start_density": 0.06666666666666667,
+  "end_density": 0.28888888888888886,
+  "start_edges": 3,
+  "end_edges": 13,
+  "responses": 180,
+  "hallucinated": 15,
+  "start_graph": {
+   "n": 10,
+   "edges": [
+    [
+     "Jane Moreno",
+     "Tom Moreno"
+    ],
+    [
+     "Jennifer Moore",
+     "Sam Moore"
+    ],
+    [
+     "John Lin",
+     "Mei Lin"
+    ]
+   ],
+   "density": 0.06666666666666667,
+   "responses": 90,
+   "hallucinated": 9,
+   "hallucination_rate": 0.1
+  },
+  "end_graph": {
+   "n": 10,
+   "edges": [
+    [
+     "Eddy Lin",
+     "Maria Lopez"
+    ],
+    [
+     "Isabella Rodriguez",
+     "John Lin"
+    ],
+    [
+     "Isabella Rodriguez",
+     "Sam Moore"
+    ],
+    [
+     "Isabella Rodriguez",
+     "Tom Moreno"
+    ],
+    [
+     "Jane Moreno",
+     "John Lin"
+    ],
+    [
+     "Jane Moreno",
+     "Tom Moreno"
+    ],
+    [
+     "Jennifer Moore",
+     "Sam Moore"
+    ],
+    [
+     "John Lin",
+     "Mei Lin"
+    ],
+    [
+     "John Lin",
+     "Tom Moreno"
+    ],
+    [
+     "Klaus Mueller",
+     "Maria Lopez"
+    ],
+    [
+     "Klaus Mueller",
+     "Mei Lin"
+    ],
+    [
+     "Klaus Mueller",
+     "Sam Moore"
+    ],
+    [
+     "Maria Lopez",
+     "Mei Lin"
+    ]
+   ],
+   "density": 0.28888888888888886,
+   "responses": 90,
+   "hallucinated": 6,
+   "hallucination_rate": 0.06666666666666667
+  }
+ },
+ "party": {
+  "invited": [
+   "Sam Moore",
+   "Jane Moreno"
+  ],
+  "n_invited": 2,
+  "attended_17h_feb14": [
+   "Isabella Rodriguez",
+   "Sam Moore"
+  ],
+  "n_attended": 1,
+  "attendance_by_step": {
+   "2023-02-13T17:00:00": [
+    "Eddy Lin",
+    "Isabella Rodriguez",
+    "Sam Moore"
+   ],
+   "2023-02-14T17:00:00": [
+    "Isabella Rodriguez",
+    "Sam Moore"
+   ]
+  }
+ },
+ "agent_stats": {
+  "Isabella Rodriguez": {
+   "observations": 52,
+   "reflections": 1,
+   "dialogues": 9,
+   "reactions": 7
+  },
+  "Maria Lopez": {
+   "observations": 68,
+   "reflections": 1,
+   "dialogues": 8,
+   "reactions": 8
+  },
+  "Klaus Mueller": {
+   "observations": 72,
+   "reflections": 1,
+   "dialogues": 11,
+   "reactions": 6
+  },
+  "Sam Moore": {
+   "observations": 46,
+   "reflections": 1,
+   "dialogues": 8,
+   "reactions": 3
+  },
+  "Jennifer Moore": {
+   "observations": 20,
+   "reflections": 0,
+   "dialogues": 0,
+   "reactions": 0
+  },
+  "Tom Moreno": {
+   "observations": 60,
+   "reflections": 1,
+   "dialogues": 10,
+   "reactions": 14
+  },
+  "Jane Moreno": {
+   "observations": 56,
+   "reflections": 1,
+   "dialogues": 7,
+   "reactions": 6
+  },
+  "John Lin": {
+   "observations": 61,
+   "reflections": 1,
+   "dialogues": 9,
+   "reactions": 5
+  },
+  "Eddy Lin": {
+   "observations": 55,
+   "reflections": 1,
+   "dialogues": 8,
+   "reactions": 2
+  },
+  "Mei Lin": {
+   "observations": 67,
+   "reflections": 1,
+   "dialogues": 6,
+   "reactions": 5
+  }
+ },
+ "dialogues": 38
+}

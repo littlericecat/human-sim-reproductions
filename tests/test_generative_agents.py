@@ -146,7 +146,19 @@ def test_measurement_labels():
     assert not measure.knows_party("I'm not sure if there is a party.")
     assert measure.knows_mayor("I know that Sam Moore has expressed interest in running for local mayor.")
     assert not measure.knows_mayor("I'm not sure who is running for the election.")
+    assert not measure.knows_mayor("Sam Moore: Yes, I know who is running for mayor. It's Isabella Rodriguez.")   # names the wrong person
+    assert not measure.knows_mayor("John Lin: Yes, I'm aware that there are several candidates running for the local mayor election.")
+    assert not measure.knows_party("John Lin: Yes, I did. It's a great opportunity to celebrate love and relationships.")  # no party named
     assert measure.knows_person("Yes, I know Maria Lopez. She is a student.") and not measure.knows_person("No, I don't know who that is.")
+    # answers seen in the real run: a name prefix, a refusal, a 'not aware', a generic Valentine's remark
+    assert not measure.knows_party("Klaus Mueller: No, I didn't know there was a Valentine's Day party.")
+    assert not measure.knows_party("Jennifer Moore: I'm sorry, but I don't recall any specific Valentine's Day party mentioned in my plans.")
+    assert not measure.knows_party("Mei Lin: I'm not aware of a Valentine's Day party. I'm not particularly interested in such events.")
+    assert not measure.knows_party("Maria Lopez: Yes, I'm aware of Valentine's Day. It's a special day to celebrate love.")  # not the party
+    assert measure.knows_party("Sam Moore: Yes, Isabella, there is a Valentine's Day party at Hobbs Cafe.")
+    assert not measure.knows_mayor("Eddy Lin: I'm sorry, but as an AI, I don't have the ability to know who is running for mayor.")
+    assert not measure.knows_person("I'm sorry, but I don't have any information about Maria Lopez.")
+    assert measure.strip_name_prefix("Tom Moreno: No, I don't know.") == "No, I don't know."
 
 
 def test_scripted_three_agent_simulation_spreads_the_party_by_dialogue_only():

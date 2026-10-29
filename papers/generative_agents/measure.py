@@ -13,25 +13,40 @@ from papers.generative_agents.agent import Agent
 PARTY_Q = "Did you know there is a Valentine's Day party?"
 MAYOR_Q = "Do you know who is running for mayor?"
 NEGATIVE = ("no", "not sure", "i'm not sure", "i am not sure", "i don't know", "i do not know", "i'm not aware", "i am not aware", "i haven't heard",
-            "i have not heard", "not that i know", "i don't think", "unfortunately")
+            "i have not heard", "not that i know", "i don't think", "unfortunately", "i'm sorry", "i am sorry", "sorry", "i don't have", "i do not have",
+            "i don't recall", "i do not recall", "i'm not really", "i'm not particularly", "as an ai")
+NEGATIVE_ANYWHERE = ("don't have any information", "do not have any information", "don't know", "do not know", "not aware", "don't recall",
+                     "didn't know", "did not know", "not sure", "no information", "never heard", "haven't heard", "as an ai")
 
 
-def labelled_yes(answer: str, keywords: tuple[str, ...]) -> bool:
-    a = answer.strip().lower()
+def strip_name_prefix(answer: str) -> str:
+    """The model often starts with 'Klaus Mueller: ...'; the label must read what follows."""
+    return re.sub(r"^\s*[A-Z][a-z]+(?: [A-Z][a-z]+)*\s*:\s*", "", answer.strip())
+
+
+def labelled_yes(answer: str, keywords: tuple[str, ...], require_keyword: bool = False) -> bool:
+    """Paper-style yes/no coding of an interview answer: a refusal or a statement of not knowing in the opening
+    sentence is 'no'; otherwise an explicit 'yes' or a topical keyword is 'yes'. With require_keyword the answer must
+    actually name the information asked about (the party, the candidate) — a bare 'yes' is not knowledge."""
+    a = strip_name_prefix(answer).lower()
     if not a:
         return False
-    head = a[:60]
-    if any(head.startswith(n) for n in NEGATIVE):
+    first = re.split(r"(?<=[.!?])\s", a, maxsplit=1)[0]
+    if any(first.startswith(n) for n in NEGATIVE) or any(n in first for n in NEGATIVE_ANYWHERE):
         return False
-    return head.startswith("yes") or any(k in a for k in keywords)
+    has_kw = any(k in a for k in keywords)
+    if require_keyword:
+        return has_kw
+    return first.startswith("yes") or has_kw
 
 
 def knows_party(answer: str) -> bool:
-    return labelled_yes(answer, ("valentine", "party at hobbs", "isabella"))
+    return labelled_yes(answer, ("party",), require_keyword=True)
 
 
 def knows_mayor(answer: str) -> bool:
-    return labelled_yes(answer, ("sam moore", "sam ", "moore"))
+    """Knowing who runs means naming Sam Moore (the paper's example: 'Sam Moore has expressed interest in running')."""
+    return labelled_yes(answer, ("sam moore", "sam ", " sam", "moore"), require_keyword=True)
 
 
 def has_source(agent: Agent, pattern: str) -> bool:

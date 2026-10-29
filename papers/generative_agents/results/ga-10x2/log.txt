@@ -1,0 +1,45 @@
+start density 0.022 (1 edges)
+[Monday February 13, 2023, 7:00 AM] John Lin <-> Mei Lin at Lin family's house: Mei and John Lin's bedroom: 4 turns
+[Monday February 13, 2023, 8:00 AM] John Lin <-> Jane Moreno at The Willows Market and Pharmacy: store: 4 turns
+[Monday February 13, 2023, 9:00 AM] Sam Moore <-> Isabella Rodriguez at Hobbs Cafe: cafe: 4 turns
+[Monday February 13, 2023, 9:00 AM] Klaus Mueller <-> Maria Lopez at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 10:00 AM] Klaus Mueller <-> Eddy Lin at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 11:00 AM] Maria Lopez <-> Eddy Lin at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 12:00 PM] Klaus Mueller <-> Sam Moore at Hobbs Cafe: cafe: 4 turns
+[Monday February 13, 2023, 12:00 PM] Mei Lin <-> Eddy Lin at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 1:00 PM] Mei Lin <-> Klaus Mueller at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 2:00 PM] Tom Moreno <-> Jane Moreno at The Willows Market and Pharmacy: store: 4 turns
+[Monday February 13, 2023, 2:00 PM] Eddy Lin <-> Klaus Mueller at Oak Hill College: library: 4 turns
+step 8 Monday February 13, 2023, 3:00 PM | llm calls 375 | dialogues 11 | 2945s
+[Monday February 13, 2023, 3:00 PM] Isabella Rodriguez <-> Sam Moore at Hobbs Cafe: cafe: 4 turns
+[Monday February 13, 2023, 4:00 PM] Mei Lin <-> Eddy Lin at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 5:00 PM] Sam Moore <-> Eddy Lin at Hobbs Cafe: cafe: 1 turns
+[Monday February 13, 2023, 6:00 PM] Eddy Lin <-> Klaus Mueller at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 7:00 PM] Tom Moreno <-> Isabella Rodriguez at The Willows Market and Pharmacy: store: 4 turns
+[Monday February 13, 2023, 8:00 PM] Maria Lopez <-> Eddy Lin at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 8:00 PM] John Lin <-> Jane Moreno at The Willows Market and Pharmacy: store: 4 turns
+[Monday February 13, 2023, 9:00 PM] Klaus Mueller <-> Maria Lopez at Oak Hill College: library: 4 turns
+[Monday February 13, 2023, 9:00 PM] Tom Moreno <-> John Lin at The Willows Market and Pharmacy: store: 4 turns
+[Monday February 13, 2023, 10:00 PM] Isabella Rodriguez <-> Sam Moore at Hobbs Cafe: cafe: 4 turns
+[Monday February 13, 2023, 10:00 PM] Maria Lopez <-> Klaus Mueller at Oak Hill College: library: 4 turns
+step 16 Monday February 13, 2023, 11:00 PM | llm calls 601 | dialogues 22 | 6123s
+step 24 Tuesday February 14, 2023, 7:00 AM | llm calls 611 | dialogues 22 | 6332s
+[Tuesday February 14, 2023, 9:00 AM] Tom Moreno <-> John Lin at The Willows Market and Pharmacy: store: 3 turns
+[Tuesday February 14, 2023, 11:00 AM] Mei Lin <-> Klaus Mueller at Oak Hill College: library: 4 turns
+[Tuesday February 14, 2023, 11:00 AM] Tom Moreno <-> John Lin at The Willows Market and Pharmacy: store: 3 turns
+[Tuesday February 14, 2023, 12:00 PM] Jane Moreno <-> Tom Moreno at The Willows Market and Pharmacy: store: 4 turns
+step 32 Tuesday February 14, 2023, 3:00 PM | llm calls 803 | dialogues 26 | 9604s
+[Tuesday February 14, 2023, 3:00 PM] Klaus Mueller <-> Maria Lopez at Oak Hill College: library: 4 turns
+[Tuesday February 14, 2023, 3:00 PM] Tom Moreno <-> Jane Moreno at The Willows Market and Pharmacy: store: 2 turns
+[Tuesday February 14, 2023, 4:00 PM] Maria Lopez <-> Klaus Mueller at Oak Hill College: library: 4 turns
+[Tuesday February 14, 2023, 5:00 PM] Maria Lopez <-> Mei Lin at Oak Hill College: library: 4 turns
+[Tuesday February 14, 2023, 5:00 PM] Isabella Rodriguez <-> Sam Moore at Hobbs Cafe: cafe: 4 turns
+[Tuesday February 14, 2023, 6:00 PM] Tom Moreno <-> John Lin at The Willows Market and Pharmacy: store: 4 turns
+[Tuesday February 14, 2023, 7:00 PM] Tom Moreno <-> Isabella Rodriguez at The Willows Market and Pharmacy: store: 1 turns
+[Tuesday February 14, 2023, 8:00 PM] Jane Moreno <-> Isabella Rodriguez at The Willows Market and Pharmacy: store: 4 turns
+[Tuesday February 14, 2023, 8:00 PM] Tom Moreno <-> John Lin at The Willows Market and Pharmacy: store: 4 turns
+[Tuesday February 14, 2023, 9:00 PM] Isabella Rodriguez <-> Sam Moore at Hobbs Cafe: cafe: 4 turns
+[Tuesday February 14, 2023, 9:00 PM] John Lin <-> Jane Moreno at The Willows Market and Pharmacy: store: 4 turns
+step 40 Tuesday February 14, 2023, 11:00 PM | llm calls 963 | dialogues 37 | 12229s
+[Tuesday February 14, 2023, 11:00 PM] Sam Moore <-> Isabella Rodriguez at Hobbs Cafe: cafe: 4 turns
+step 48 Wednesday February 15, 2023, 7:00 AM | llm calls 976 | dialogues 38 | 12451s

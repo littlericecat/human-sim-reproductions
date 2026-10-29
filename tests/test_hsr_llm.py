@@ -61,3 +61,20 @@ def test_bag_of_words_embedder_is_unit_norm_and_discriminative():
     assert abs(np.linalg.norm(a) - 1) < 1e-5
     assert embed.cosine(a, b) > embed.cosine(a, c)
     assert e.embed("Klaus is writing a research paper") is a  # cached
+
+
+def test_logprob_and_raw_cassette_roundtrip(tmp_path):
+    from hsr.llm import logprob_key, raw_key
+    c = Cassette(tmp_path / "c.jsonl", mode="record")
+    c.put(logprob_key("In 2016, I voted for", 60, "m"), {"kind": "logprobs", "logprobs": {" Donald": -0.4, " Hillary": -1.2}})
+    c.put(raw_key("Me:", 5, 0.7, 0, "m"), {"kind": "raw", "response": " male"})
+    llm = ReplayLLM(Cassette(tmp_path / "c.jsonl", mode="replay"), "m")
+    assert llm.next_token_logprobs("In 2016, I voted for", 60) == {" Donald": -0.4, " Hillary": -1.2}
+    assert llm.complete_raw("Me:", max_tokens=5, temperature=0.7, seed=0) == " male"
+    with pytest.raises(LookupError):
+        llm.next_token_logprobs("other", 60)
+    local = LocalLLM(model_path="/nonexistent/m", cassette=Cassette(tmp_path / "c.jsonl", mode="replay"))
+    assert local.next_token_logprobs("In 2016, I voted for", 60)[" Donald"] == -0.4 and local._llm is None
+    fake = FakeLLM(logprob_fn=lambda p: {" Donald": -0.1} if "Republican" in p else {" Hillary": -0.1})
+    assert " Donald" in fake.next_token_logprobs("I am a strong Republican. In 2016, I voted for")
+

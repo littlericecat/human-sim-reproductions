@@ -1,0 +1,97 @@
+{
+ "source": "Argyle et al. 2023, Table 1, 2016 columns (tetrachoric correlation, proportion agreement) between GPT-3 and ANES vote",
+ "rows": {
+  "Whole sample": {
+   "tetrachoric": 0.92,
+   "agreement": 0.87
+  },
+  "Men": {
+   "tetrachoric": 0.93,
+   "agreement": 0.88
+  },
+  "Women": {
+   "tetrachoric": 0.92,
+   "agreement": 0.86
+  },
+  "Strong partisans": {
+   "tetrachoric": 1.0,
+   "agreement": 0.97
+  },
+  "Weak partisans": {
+   "tetrachoric": 0.71,
+   "agreement": 0.74
+  },
+  "Leaners": {
+   "tetrachoric": 0.93,
+   "agreement": 0.87
+  },
+  "Independents": {
+   "tetrachoric": 0.41,
+   "agreement": 0.62
+  },
+  "Conservatives": {
+   "tetrachoric": 0.88,
+   "agreement": 0.86
+  },
+  "Moderates": {
+   "tetrachoric": 0.76,
+   "agreement": 0.78
+  },
+  "Liberals": {
+   "tetrachoric": 0.73,
+   "agreement": 0.95
+  },
+  "Whites": {
+   "tetrachoric": 0.91,
+   "agreement": 0.85
+  },
+  "Blacks": {
+   "tetrachoric": 0.87,
+   "agreement": 0.96
+  },
+  "Hispanics": {
+   "tetrachoric": 0.93,
+   "agreement": 0.9
+  },
+  "Attends church": {
+   "tetrachoric": 0.93,
+   "agreement": 0.88
+  },
+  "Doesn't attend church": {
+   "tetrachoric": 0.9,
+   "agreement": 0.85
+  },
+  "High interest in politics": {
+   "tetrachoric": 0.97,
+   "agreement": 0.93
+  },
+  "Low interest in politics": {
+   "tetrachoric": 0.75,
+   "agreement": 0.75
+  },
+  "Discusses politics": {
+   "tetrachoric": 0.94,
+   "agreement": 0.88
+  },
+  "Doesn't discuss politics": {
+   "tetrachoric": 0.81,
+   "agreement": 0.79
+  },
+  "18 to 30 years old": {
+   "tetrachoric": 0.9,
+   "agreement": 0.86
+  },
+  "31 to 45 years old": {
+   "tetrachoric": 0.92,
+   "agreement": 0.87
+  },
+  "46 to 60 years old": {
+   "tetrachoric": 0.92,
+   "agreement": 0.86
+  },
+  "Over 60": {
+   "tetrachoric": 0.93,
+   "agreement": 0.87
+  }
+ }
+}

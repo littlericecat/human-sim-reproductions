@@ -1,0 +1,1624 @@
+id,gender,gender_raw,race,race_raw,age,age_raw,education,education_raw,church,church_raw,patriotism,patriotism_raw,discuss,discuss_raw,interest,interest_raw,ideology,ideology_raw,pid7,pid7_raw,voted,voted_raw,vote,vote_raw
+300040.0,1," male
+Interviewer:",1," White
+
+What is the",64," 64
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What is an",4," not at all interested
+
+",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+300146.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"
+300207.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+Interviewer:",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+300215.0,1," male
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is an",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+300565.0,1," male
+Interviewer:",1," White
+
+What is the",64," 64
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is an",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+300704.0,1," male
+Interviewer:",1," White
+
+The interviewer and",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+300743.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",2," not very strong democrat
+",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+300820.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What is an",4," independent, but closer to",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+300900.0,1," male
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is an",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+301030.0,1," male
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What can be",,
+301235.0,1," male
+Interviewer:",1," White
+
+What is the",60," 60
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+301288.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",2," no
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"
+301411.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+301467.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is an",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",4," independent
+Interviewer:",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+301545.0,2," female
+Interviewer:",1," White
+
+The interview was",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+301734.0,1," male
+Interviewer:",1," White
+
+Interviewer:",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+301839.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+301873.0,1," male
+Interviewer:",1," White
+
+What is the",18," 18
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is a",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"
+301910.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",1," very interested
+Interviewer",4," moderate
+Interviewer:",2," not very strong democrat
+",1," yes
+
+What was a",2.0," Donald Trump
+Interviewer"
+301992.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+Interviewer:",4," not at all interested
+
+",4," moderate
+Interviewer:",4," independent, but closer to",1," yes
+
+Based on this",2.0," Donald Trump
+Interviewer"
+302325.0,1," male
+Interviewer:",1," White
+
+What is the",18," 18
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",1," very interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+302406.0,1," male
+Interviewer:",1," White
+
+What is the",18," 18
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",3," a little good
+Interview",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What is the",4," independent
+Interviewer:",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+302522.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What was a",4," not at all interested
+
+",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+302679.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is an",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+302760.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is an",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",6," not very strong republican
+",1," yes
+
+What can be",,
+302861.0,1," male
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+400251.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+
+What can be",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",6," not very strong Republican
+",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+400315.0,1," male
+Interviewer:",1," White
+
+Interviewer:",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",4," not at all interested
+
+",4," moderate
+
+What was the",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+400404.0,1," male
+Interviewer:",1," White
+
+What is the",60," 60
+Interview",3, a four-year college degree,1," yes
+Interviewer:",1," extremely good
+Interviewer",1," yes
+
+What can be",1," very interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+400546.0,1," male
+Interviewer:",1," White
+
+What is the",52," 52
+Interview",2," some college
+Interviewer",2," no
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What was the",2.0," Donald Trump
+Interviewer"
+400697.0,1," male
+Interviewer:",1," White
+Interviewer:",60," 60
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+400989.0,1," male
+Interviewer:",1," White
+
+What is the",54," 54
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can be",4," independent, but closer to",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"
+400991.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+401037.0,1," male
+Interviewer:",1," White
+
+What is the",60," 60
+Interview",3, a four-year college degree,2," no
+
+What is an",1," extremely good
+Interviewer",1," yes
+
+What is the",1," very interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"
+401082.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is a",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+401188.0,1," male
+Interviewer:",1," White
+Interviewer:",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",1," extremely good
+Interviewer",1," yes
+Interviewer:",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+401248.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+401464.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What was a",2.0," Donald Trump
+Interviewer"
+401520.0,1," male
+Interviewer:",1," White
+
+What is the",50," 50
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is an",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+401539.0,1," male
+Interviewer:",1," White
+Interviewer:",54," 54
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+401580.0,1," male
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is an",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",6," not very strong Republican
+",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+401872.0,1," male
+Interviewer:",1," White
+
+What is the",58," 58
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent
+Interviewer:",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402048.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402257.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402340.0,1," male
+Interviewer:",1," White
+
+What is the",52," 52
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402429.0,1," male
+Interviewer:",1," White
+
+What is the",55," 55
+Interview",2," some college
+Interviewer",2," no
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What is the",4," not at all interested
+
+",4," moderate
+Interviewer:",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402439.0,1," male
+Interviewer:",1," White
+
+Interviewer:",50," 50
+Interview",3, a four-year college degree,2," no
+
+What was this",2," moderately good
+Interviewer",1," yes
+
+What is the",1," very interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+402497.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+Interviewer:",1," very interested
+Interviewer",4," moderate
+
+What can be",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402692.0,1," male
+Interviewer:",1," White
+
+What is the",58," 58
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What can we",4," independent
+Interviewer:",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402759.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+Interviewer:",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402769.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+402957.0,2," female
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",3, a four-year college degree,1," yes
+Interviewer:",1," extremely good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"
+403100.0,1," male
+Interviewer:",1," White
+
+What is the",18," 18
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"
+403155.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",6," not very strong Republican
+",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+403345.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What is an",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+403517.0,1," male
+Interviewer:",1," White
+
+What is the",54," 54
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",3," a little good
+Interview",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What was a",2.0," Donald Trump
+Interviewer"
+403571.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+
+What is an",2," moderately good
+Interviewer",1," yes
+
+What was a",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What was a",2.0," Donald Trump
+Interviewer"
+403577.0,2," female
+
+What was the",1," White
+
+What is the",60," 60
+Interview",2," some college
+Interviewer",1," yes
+
+What is a",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+403609.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",2," not very strong democrat
+",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+403644.0,1," male
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+
+",1," yes
+
+What is the",,
+403658.0,1," male
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+Interviewer:",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+403761.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+Interviewer:",1," very interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+403831.0,1," male
+Interviewer:",1," White
+
+What is the",54," 54
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"
+403853.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",3," a little good
+Interview",1," yes
+
+What is an",4," not at all interested
+
+",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+404124.0,2," female
+Interviewer:",1," White
+
+What is the",65," 65
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",1," extremely good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+404192.0,1," male
+Interviewer:",1," White
+
+What is the",18," 18
+Interview",1," high school
+Interviewer",2," no
+
+What was the",1," extremely good
+Interviewer",1," yes
+
+What is the",1," very interested
+Interviewer",4," moderate
+
+What is a",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+404241.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What can be",,
+404268.0,1," male
+Interviewer:",1," White
+
+Interviewer:",52," 52
+Interview",3, a four-year college degree,2," no
+Interviewer:",1," extremely good
+Interviewer",1," yes
+
+What can be",1," very interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+404291.0,1," male
+Interviewer:",1," White
+
+What is the",60," 60
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+404376.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What can we",6," not very strong Republican
+
+",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+404611.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+404652.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What was that",2.0," Donald Trump
+Interviewer"
+404692.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+404723.0,2," female
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",1," very interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+404735.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+
+",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+404871.0,1," male
+Interviewer:",1," White
+
+What is the",54," 54
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+405199.0,2," female
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+405223.0,1," male
+Interviewer:",1," White
+
+Interviewer:",54," 54
+Interview",2," some college
+Interviewer",2," no
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can be",4," independent
+Interviewer:",1," yes
+
+What was that",2.0," Donald Trump
+Interviewer"
+405250.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+
+What is an",2," moderately good
+Interviewer",1," yes
+
+What is an",1," very interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+405290.0,1," male
+Interviewer:",1," White
+
+What is the",60," 60
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What is an",4," not at all interested
+
+",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+405339.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+
+What is the",6," not very strong republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+405780.0,1," male
+Interviewer:",1," White
+
+What is the",60," 60
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+
+",1," yes
+
+What is an",,
+405793.0,1," male
+Interviewer:",1," White
+
+What is the",54," 54
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is an",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+406346.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+406384.0,2," female
+Interviewer:",1," White
+
+What is the",64," 64
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+Interviewer:",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+406458.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",1," extremely good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What is an",,
+406660.0,1," male
+Interviewer:",1," White
+
+Interviewer:",54," 54
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What is the",4," not at all interested
+
+",4," moderate
+
+What is the",2," not very strong democrat
+",1," yes
+
+What is the",,
+406837.0,1," male
+Interviewer:",1," White
+
+What is the",60," 60
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+406894.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",3, a four-year college degree,2," no
+Interviewer:",1," extremely good
+Interviewer",1," yes
+
+What is the",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+407055.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+Interviewer:",4," not at all interested
+
+",4," moderate
+Interviewer:",4," independent
+Interviewer:",1," yes
+Interviewer:",2.0," Donald Trump
+Interviewer"
+407157.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",4," not at all interested
+
+",4," moderate
+Interviewer:",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+407187.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What was the",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+407246.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",6," moderately bad
+Interviewer",1," yes
+
+What is the",4," not at all interested
+
+",4," moderate
+
+What is the",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+407352.0,1," male
+Interviewer:",1," White
+
+What is the",61," 61
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What is a",4," not at all interested
+
+",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+407402.0,1," male
+Interviewer:",1," White
+Interviewer:",54," 54
+Interview",3, a four-year college degree,1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",6," not very strong Republican
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+407519.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",4," independent, but closer to",1," yes
+
+What can be",,
+407521.0,1," male
+Interviewer:",1," White
+
+Interviewer:",61," 61
+Interview",2," some college
+Interviewer",2," no
+
+What is an",1," extremely good
+Interviewer",1," yes
+
+What is an",1," very interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+407563.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",2," not very strong democrat
+",1," yes
+
+What can be",2.0," Donald Trump
+Interviewer"
+407677.0,1," male
+Interviewer:",1," White
+
+What is the",62," 62
+Interview",2," some college
+Interviewer",1," yes
+Interviewer:",2," moderately good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What can we",6," not very strong Republican
+",1," yes
+
+What is an",2.0," Donald Trump
+Interviewer"
+407712.0,1," male
+Interviewer:",1," White
+Interviewer:",62," 62
+Interview",3, a four-year college degree,1," yes
+Interviewer:",1," extremely good
+Interviewer",1," yes
+
+What can be",2," somewhat interested
+Interviewer",4," moderate
+
+What is the",6," not very strong Republican
+",1," yes
+
+What is the",2.0," Donald Trump
+Interviewer"

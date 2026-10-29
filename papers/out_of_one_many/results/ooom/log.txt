@@ -1,0 +1,3 @@
+study 2: 1000 of 2609 two-party voters
+study 2 done: 985 calls, 3380s
+study 3 done: 2175 calls, 16531s

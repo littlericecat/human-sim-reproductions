@@ -7,7 +7,7 @@ paper's numbers were matched, which were not, and what could not be reproduced a
 | # | Paper | Folder | Status |
 |---|---|---|---|
 | 1 | Park et al., *Generative Agents: Interactive Simulacra of Human Behavior* (UIST 2023, arXiv:2304.03442) | `papers/generative_agents/` | done — local-model method reproduction (10 agents × 2 days); see REPORT.md |
-| 2 | Argyle et al., *Out of One, Many: Using Language Models to Simulate Human Samples* (Political Analysis 2023, arXiv:2209.06899) | `papers/out_of_one_many/` | next |
+| 2 | Argyle et al., *Out of One, Many: Using Language Models to Simulate Human Samples* (Political Analysis 2023, arXiv:2209.06899) | `papers/out_of_one_many/` | done — local-model method reproduction (2016 ANES; n = 1,000 / 100) + GPT-3 re-analysis; see REPORT.md |
 | 3 | Park et al., *Generative Agent Simulations of 1,000 People* (arXiv:2411.10109v1) | `papers/thousand_people/` | access-tier documentation only (founder decision pending) |
 
 ## Setup (local models only)

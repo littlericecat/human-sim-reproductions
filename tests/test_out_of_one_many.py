@@ -97,6 +97,10 @@ def test_study2_predict_and_subgroups(loaded):
     w = ev["subgroups"]["Whole sample"]
     assert w["n"] == 40 and 0 <= w["agreement"] <= 1 and set(ev["subgroups"]) == set(study2.SUBGROUPS)
     assert ev["subgroups"]["Men"]["n"] + ev["subgroups"]["Women"]["n"] <= 40
+    dg = ev["diagnostics"]
+    assert 0 <= dg["auc"] <= 1 and -1 <= dg["spearman"] <= 1 and 0 <= dg["quantile_matched"]["agreement"] <= 1
+    assert abs(dg["human_rep_share"] - np.mean([v for v in (pred.merge(h, on="id")["vote"] == 2)])) < 1e-9
+    assert set(dg["mean_p_republican_by_pid7"]) <= {str(i) for i in range(1, 8)}
 
 
 def test_study3_generate_and_cramers(loaded):

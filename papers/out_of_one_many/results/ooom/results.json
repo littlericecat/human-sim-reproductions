@@ -1,0 +1,1920 @@
+{
+ "config": {
+  "n2": 1000,
+  "n3": 100,
+  "seed": 0,
+  "model": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "rows_in_file": 4270
+ },
+ "llm_calls": 2192,
+ "cassette_entries": 2175,
+ "elapsed_s": 1.2,
+ "study2": {
+  "n_two_party": 1000,
+  "subgroups": {
+   "Whole sample": {
+    "n": 1000,
+    "tetrachoric": 0.7198951171680245,
+    "kappa": 0.09399344187721531,
+    "agreement": 0.522,
+    "human_rep_share": 0.469,
+    "silicon_rep_share": 0.945,
+    "mean_p_republican": 0.687376671950032
+   },
+   "Men": {
+    "n": 454,
+    "tetrachoric": 0.5429779984982394,
+    "kappa": 0.0498359109399257,
+    "agreement": 0.5308370044052864,
+    "human_rep_share": 0.5066079295154186,
+    "silicon_rep_share": 0.9713656387665198,
+    "mean_p_republican": 0.7063285449973621
+   },
+   "Women": {
+    "n": 531,
+    "tetrachoric": 0.7669298993126231,
+    "kappa": 0.12858783008036742,
+    "agreement": 0.5235404896421846,
+    "human_rep_share": 0.4444444444444444,
+    "silicon_rep_share": 0.9209039548022598,
+    "mean_p_republican": 0.6721215788931625
+   },
+   "Strong partisans": {
+    "n": 466,
+    "tetrachoric": 0.7562355208934619,
+    "kappa": 0.16369326520147812,
+    "agreement": 0.5643776824034334,
+    "human_rep_share": 0.4742489270386266,
+    "silicon_rep_share": 0.9055793991416309,
+    "mean_p_republican": 0.701135268458735
+   },
+   "Weak partisans": {
+    "n": 258,
+    "tetrachoric": 0.24143442556824166,
+    "kappa": 0.011729275637977536,
+    "agreement": 0.437984496124031,
+    "human_rep_share": 0.43023255813953487,
+    "silicon_rep_share": 0.9922480620155039,
+    "mean_p_republican": 0.6689082126622119
+   },
+   "Leaners": {
+    "n": 212,
+    "tetrachoric": 0.6307925002906608,
+    "kappa": 0.08802753124433998,
+    "agreement": 0.5518867924528302,
+    "human_rep_share": 0.5094339622641509,
+    "silicon_rep_share": 0.9575471698113207,
+    "mean_p_republican": 0.675842344102833
+   },
+   "Independents": {
+    "n": 63,
+    "tetrachoric": -0.03907001355618892,
+    "kappa": 0.0,
+    "agreement": 0.4603174603174603,
+    "human_rep_share": 0.4603174603174603,
+    "silicon_rep_share": 1.0,
+    "mean_p_republican": 0.7005557672531844
+   },
+   "Conservatives": {
+    "n": 365,
+    "tetrachoric": 0.3622368182143927,
+    "kappa": 0.0,
+    "agreement": 0.8684931506849315,
+    "human_rep_share": 0.8684931506849315,
+    "silicon_rep_share": 1.0,
+    "mean_p_republican": 0.8071281315165533
+   },
+   "Moderates": {
+    "n": 190,
+    "tetrachoric": 0.2671617160994652,
+    "kappa": 0.020444444444444407,
+    "agreement": 0.3894736842105263,
+    "human_rep_share": 0.3684210526315789,
+    "silicon_rep_share": 0.968421052631579,
+    "mean_p_republican": 0.6450860748148287
+   },
+   "Liberals": {
+    "n": 295,
+    "tetrachoric": 0.3705495386845642,
+    "kappa": 0.020757174671204696,
+    "agreement": 0.19661016949152543,
+    "human_rep_share": 0.06440677966101695,
+    "silicon_rep_share": 0.8677966101694915,
+    "mean_p_republican": 0.5766123944687521
+   },
+   "Whites": {
+    "n": 763,
+    "tetrachoric": 0.7012986192259929,
+    "kappa": 0.09234243590373016,
+    "agreement": 0.5871559633027523,
+    "human_rep_share": 0.5491480996068152,
+    "silicon_rep_share": 0.9593709043250328,
+    "mean_p_republican": 0.7062111496424818
+   },
+   "Blacks": {
+    "n": 80,
+    "tetrachoric": 0.07615948514399888,
+    "kappa": 0.01675977653631282,
+    "agreement": 0.175,
+    "human_rep_share": 0.0625,
+    "silicon_rep_share": 0.8875,
+    "mean_p_republican": 0.5940693878239769
+   },
+   "Hispanics": {
+    "n": 86,
+    "tetrachoric": 0.3813762922622965,
+    "kappa": 0.05286343612334802,
+    "agreement": 0.3023255813953488,
+    "human_rep_share": 0.20930232558139536,
+    "silicon_rep_share": 0.9069767441860465,
+    "mean_p_republican": 0.6421203492244711
+   },
+   "Attends church": {
+    "n": 606,
+    "tetrachoric": 0.7247967590017783,
+    "kappa": 0.08786385060986586,
+    "agreement": 0.5858085808580858,
+    "human_rep_share": 0.5495049504950495,
+    "silicon_rep_share": 0.9636963696369637,
+    "mean_p_republican": 0.7092013899555437
+   },
+   "Doesn't attend church": {
+    "n": 391,
+    "tetrachoric": 0.6188424611071712,
+    "kappa": 0.08457592374847817,
+    "agreement": 0.42455242966751916,
+    "human_rep_share": 0.3452685421994885,
+    "silicon_rep_share": 0.9156010230179028,
+    "mean_p_republican": 0.654054751966034
+   },
+   "High interest in politics": {
+    "n": 786,
+    "tetrachoric": 0.726173442617797,
+    "kappa": 0.10874304615847248,
+    "agreement": 0.539440203562341,
+    "human_rep_share": 0.48091603053435117,
+    "silicon_rep_share": 0.9389312977099237,
+    "mean_p_republican": 0.6895364442607579
+   },
+   "Low interest in politics": {
+    "n": 207,
+    "tetrachoric": 0.518299848084281,
+    "kappa": 0.05143871527061056,
+    "agreement": 0.463768115942029,
+    "human_rep_share": 0.42995169082125606,
+    "silicon_rep_share": 0.966183574879227,
+    "mean_p_republican": 0.6786281129882947
+   },
+   "Discusses politics": {
+    "n": 861,
+    "tetrachoric": 0.7577470796811031,
+    "kappa": 0.09819267529989567,
+    "agreement": 0.5180023228803716,
+    "human_rep_share": 0.4610917537746806,
+    "silicon_rep_share": 0.943089430894309,
+    "mean_p_republican": 0.6855189083113568
+   },
+   "Doesn't discuss politics": {
+    "n": 133,
+    "tetrachoric": 0.448827289373556,
+    "kappa": 0.06816292601828747,
+    "agreement": 0.556390977443609,
+    "human_rep_share": 0.5263157894736842,
+    "silicon_rep_share": 0.9548872180451128,
+    "mean_p_republican": 0.6986210949871389
+   },
+   "18 to 30 years old": {
+    "n": 142,
+    "tetrachoric": 0.6094458589648333,
+    "kappa": 0.13599736885380687,
+    "agreement": 0.4788732394366197,
+    "human_rep_share": 0.3591549295774648,
+    "silicon_rep_share": 0.8661971830985915,
+    "mean_p_republican": 0.6269186810315398
+   },
+   "31 to 45 years old": {
+    "n": 200,
+    "tetrachoric": 0.682396404975377,
+    "kappa": 0.12131035659443778,
+    "agreement": 0.485,
+    "human_rep_share": 0.395,
+    "silicon_rep_share": 0.91,
+    "mean_p_republican": 0.656904580147552
+   },
+   "46 to 60 years old": {
+    "n": 276,
+    "tetrachoric": 0.6111485608668454,
+    "kappa": 0.0685211699734097,
+    "agreement": 0.5217391304347826,
+    "human_rep_share": 0.4855072463768116,
+    "silicon_rep_share": 0.9637681159420289,
+    "mean_p_republican": 0.6964352195248472
+   },
+   "Over 60": {
+    "n": 355,
+    "tetrachoric": 0.5411936082004124,
+    "kappa": 0.03969744482158547,
+    "agreement": 0.5577464788732395,
+    "human_rep_share": 0.5408450704225352,
+    "silicon_rep_share": 0.9830985915492958,
+    "mean_p_republican": 0.7234306334799202
+   }
+  },
+  "diagnostics": {
+   "mean_p_republican": 0.687376671950032,
+   "silicon_rep_share_at_0.5": 0.945,
+   "human_rep_share": 0.469,
+   "auc": 0.93015150237513,
+   "spearman": 0.7436113084926785,
+   "quantile_matched": {
+    "threshold": 0.6861873661664069,
+    "agreement": 0.86,
+    "tetrachoric": 0.9042495051801731,
+    "kappa": 0.7189195266604829
+   },
+   "mean_p_republican_by_pid7": {
+    "1": 0.5500884416443508,
+    "2": 0.6319432236807193,
+    "3": 0.5769679905190831,
+    "4": 0.7005557672531845,
+    "5": 0.7728685789280081,
+    "6": 0.7163411631251893,
+    "7": 0.8643197867135607
+   },
+   "mean_p_republican_by_ideology": {
+    "1": 0.5472124974871089,
+    "2": 0.5586467044058975,
+    "3": 0.6194074492741797,
+    "4": 0.6450860748148287,
+    "5": 0.7545892900382488,
+    "6": 0.8289217838099397,
+    "7": 0.8349964758647489
+   }
+  },
+  "n_prompted": 1000,
+  "n_no_candidate_token": 0
+ },
+ "paper_table1_2016": {
+  "Whole sample": {
+   "tetrachoric": 0.92,
+   "agreement": 0.87
+  },
+  "Men": {
+   "tetrachoric": 0.93,
+   "agreement": 0.88
+  },
+  "Women": {
+   "tetrachoric": 0.92,
+   "agreement": 0.86
+  },
+  "Strong partisans": {
+   "tetrachoric": 1.0,
+   "agreement": 0.97
+  },
+  "Weak partisans": {
+   "tetrachoric": 0.71,
+   "agreement": 0.74
+  },
+  "Leaners": {
+   "tetrachoric": 0.93,
+   "agreement": 0.87
+  },
+  "Independents": {
+   "tetrachoric": 0.41,
+   "agreement": 0.62
+  },
+  "Conservatives": {
+   "tetrachoric": 0.88,
+   "agreement": 0.86
+  },
+  "Moderates": {
+   "tetrachoric": 0.76,
+   "agreement": 0.78
+  },
+  "Liberals": {
+   "tetrachoric": 0.73,
+   "agreement": 0.95
+  },
+  "Whites": {
+   "tetrachoric": 0.91,
+   "agreement": 0.85
+  },
+  "Blacks": {
+   "tetrachoric": 0.87,
+   "agreement": 0.96
+  },
+  "Hispanics": {
+   "tetrachoric": 0.93,
+   "agreement": 0.9
+  },
+  "Attends church": {
+   "tetrachoric": 0.93,
+   "agreement": 0.88
+  },
+  "Doesn't attend church": {
+   "tetrachoric": 0.9,
+   "agreement": 0.85
+  },
+  "High interest in politics": {
+   "tetrachoric": 0.97,
+   "agreement": 0.93
+  },
+  "Low interest in politics": {
+   "tetrachoric": 0.75,
+   "agreement": 0.75
+  },
+  "Discusses politics": {
+   "tetrachoric": 0.94,
+   "agreement": 0.88
+  },
+  "Doesn't discuss politics": {
+   "tetrachoric": 0.81,
+   "agreement": 0.79
+  },
+  "18 to 30 years old": {
+   "tetrachoric": 0.9,
+   "agreement": 0.86
+  },
+  "31 to 45 years old": {
+   "tetrachoric": 0.92,
+   "agreement": 0.87
+  },
+  "46 to 60 years old": {
+   "tetrachoric": 0.92,
+   "agreement": 0.86
+  },
+  "Over 60": {
+   "tetrachoric": 0.93,
+   "agreement": 0.87
+  }
+ },
+ "study3_local": {
+  "n_complete": 61,
+  "pairs": {
+   "gender|race": {
+    "human": 0.2614012771690829,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "gender|age": {
+    "human": 0.8481900771209286,
+    "silicon": 0.3788473979212666,
+    "diff": 0.46934267919966205
+   },
+   "gender|education": {
+    "human": 0.19977754959663016,
+    "silicon": 0.0752480366913542,
+    "diff": 0.12452951290527596
+   },
+   "gender|church": {
+    "human": 0.1286842292021254,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "gender|patriotism": {
+    "human": 0.2685319684722118,
+    "silicon": 0.281748213574894,
+    "diff": -0.013216245102682211
+   },
+   "gender|discuss": {
+    "human": 0.03195295897142115,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "gender|interest": {
+    "human": 0.13206922405420551,
+    "silicon": 0.2533861587667043,
+    "diff": -0.12131693471249877
+   },
+   "gender|ideology": {
+    "human": 0.14157316867406983,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "gender|pid7": {
+    "human": 0.2346116333787489,
+    "silicon": 0.17468525869645868,
+    "diff": 0.05992637468229023
+   },
+   "gender|vote2016": {
+    "human": 0.15531937799766143,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "race|age": {
+    "human": 0.7465972189925485,
+    "silicon": 0.24756176320127993,
+    "diff": 0.49903545579126857
+   },
+   "race|education": {
+    "human": 0.2806855101756963,
+    "silicon": 0.25103708743852826,
+    "diff": 0.029648422737168056
+   },
+   "race|church": {
+    "human": 0.1771260183418189,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "race|patriotism": {
+    "human": 0.2723936589722776,
+    "silicon": 0.1330470783387077,
+    "diff": 0.13934658063356986
+   },
+   "race|discuss": {
+    "human": 0.30599358730486187,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "race|interest": {
+    "human": 0.17812466157645995,
+    "silicon": 0.14754942674688146,
+    "diff": 0.030575234829578496
+   },
+   "race|ideology": {
+    "human": 0.2848592304012302,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "race|pid7": {
+    "human": 0.38435853246868534,
+    "silicon": 0.2876260238638528,
+    "diff": 0.09673250860483257
+   },
+   "race|vote2016": {
+    "human": 0.26770431894908453,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "age|education": {
+    "human": 0.7847849263290312,
+    "silicon": 0.8210635171198993,
+    "diff": -0.03627859079086815
+   },
+   "age|church": {
+    "human": 0.8084942817750806,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "age|patriotism": {
+    "human": 0.6557125718132731,
+    "silicon": 0.6983874984843412,
+    "diff": -0.04267492667106809
+   },
+   "age|discuss": {
+    "human": 0.7696585046866422,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "age|interest": {
+    "human": 0.8312938004797398,
+    "silicon": 0.7412686197773832,
+    "diff": 0.09002518070235654
+   },
+   "age|ideology": {
+    "human": 0.8246207605617256,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "age|pid7": {
+    "human": 0.7815930183313519,
+    "silicon": 0.8119338622921185,
+    "diff": -0.03034084396076664
+   },
+   "age|vote2016": {
+    "human": 0.7889185683262745,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "education|church": {
+    "human": 0.2859068323957826,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "education|patriotism": {
+    "human": 0.2816618068731018,
+    "silicon": 0.29205241062885634,
+    "diff": -0.010390603755754513
+   },
+   "education|discuss": {
+    "human": 0.27861272581843965,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "education|interest": {
+    "human": 0.1528914290013131,
+    "silicon": 0.27388996223441675,
+    "diff": -0.12099853323310364
+   },
+   "education|ideology": {
+    "human": 0.3135925033290492,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "education|pid7": {
+    "human": 0.2700534101507942,
+    "silicon": 0.3070603455748029,
+    "diff": -0.03700693542400868
+   },
+   "education|vote2016": {
+    "human": 0.22238830383551356,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "church|patriotism": {
+    "human": 0.33339162338431916,
+    "silicon": 0.448176174305177,
+    "diff": -0.11478455092085782
+   },
+   "church|discuss": {
+    "human": 0.05795606306244152,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "church|interest": {
+    "human": 0.27376094488632774,
+    "silicon": 0.6919672545133052,
+    "diff": -0.41820630962697747
+   },
+   "church|ideology": {
+    "human": 0.4457194834776378,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "church|pid7": {
+    "human": 0.3302002992180143,
+    "silicon": 0.6649610600659114,
+    "diff": -0.3347607608478971
+   },
+   "church|vote2016": {
+    "human": 0.16889961385853525,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "patriotism|discuss": {
+    "human": 0.17160123556093831,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "patriotism|interest": {
+    "human": 0.14551084340490075,
+    "silicon": 0.2412532383202348,
+    "diff": -0.09574239491533404
+   },
+   "patriotism|ideology": {
+    "human": 0.4256468060453785,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "patriotism|pid7": {
+    "human": 0.41127075440559563,
+    "silicon": 0.29219782640288366,
+    "diff": 0.11907292800271196
+   },
+   "patriotism|vote2016": {
+    "human": 0.3469111093077171,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "discuss|interest": {
+    "human": 0.27138610739537083,
+    "silicon": 0.12043553039336888,
+    "diff": 0.15095057700200196
+   },
+   "discuss|ideology": {
+    "human": 0.4001845016782689,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "discuss|pid7": {
+    "human": 0.4435509231008857,
+    "silicon": 0.2150493120741499,
+    "diff": 0.22850161102673577
+   },
+   "discuss|vote2016": {
+    "human": 0.07184406835861308,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "interest|ideology": {
+    "human": 0.29100608902772207,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "interest|pid7": {
+    "human": 0.2748452710888857,
+    "silicon": 0.18961991181231722,
+    "diff": 0.08522535927656846
+   },
+   "interest|vote2016": {
+    "human": 0.17459231028878885,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "ideology|pid7": {
+    "human": 0.40686612069163924,
+    "silicon": 0.3795111310280017,
+    "diff": 0.02735498966363753
+   },
+   "ideology|vote2016": {
+    "human": 0.45760210804228907,
+    "silicon": NaN,
+    "diff": NaN
+   },
+   "pid7|vote2016": {
+    "human": 0.6430270227223619,
+    "silicon": NaN,
+    "diff": NaN
+   }
+  },
+  "n_pairs_defined": 26,
+  "mean_diff_human_minus_silicon": 0.029790376349840036,
+  "mean_abs_diff": 0.13561480942382598,
+  "correlation": 0.6371485963348571
+ },
+ "study3_local_parse_rate": {
+  "gender": 1.0,
+  "race": 1.0,
+  "age": 1.0,
+  "education": 1.0,
+  "church": 1.0,
+  "patriotism": 1.0,
+  "discuss": 1.0,
+  "interest": 1.0,
+  "ideology": 1.0,
+  "pid7": 1.0,
+  "voted": 1.0,
+  "vote": 0.92
+ },
+ "study3_gpt3_reanalysis": {
+  "n_complete": 1784,
+  "pairs": {
+   "gender|race": {
+    "human": 0.07971164689482203,
+    "silicon": 0.034600981569210425,
+    "diff": 0.04511066532561161
+   },
+   "gender|age": {
+    "human": 0.18404476222408783,
+    "silicon": 0.2081648858374923,
+    "diff": -0.02412012361340446
+   },
+   "gender|education": {
+    "human": 0.04393833933747625,
+    "silicon": 0.07073322760771182,
+    "diff": -0.026794888270235573
+   },
+   "gender|church": {
+    "human": 0.04518284481619072,
+    "silicon": 0.039769936220303205,
+    "diff": 0.005412908595887514
+   },
+   "gender|patriotism": {
+    "human": 0.05875220813386018,
+    "silicon": 0.0663645530997511,
+    "diff": -0.007612344965890923
+   },
+   "gender|discuss": {
+    "human": 0.0027005322002363534,
+    "silicon": 0.00977791733130815,
+    "diff": -0.007077385131071796
+   },
+   "gender|interest": {
+    "human": 0.11655584608131624,
+    "silicon": 0.04370730885729918,
+    "diff": 0.07284853722401705
+   },
+   "gender|ideology": {
+    "human": 0.12869373013601307,
+    "silicon": 0.14431024471399517,
+    "diff": -0.015616514577982105
+   },
+   "gender|pid7": {
+    "human": 0.16119130345531638,
+    "silicon": 0.10653052226586988,
+    "diff": 0.05466078118944649
+   },
+   "gender|vote2016": {
+    "human": 0.09177904434838588,
+    "silicon": 0.11412023400195864,
+    "diff": -0.022341189653572763
+   },
+   "race|age": {
+    "human": 0.20411036582624328,
+    "silicon": 0.19579884104602083,
+    "diff": 0.008311524780222457
+   },
+   "race|education": {
+    "human": 0.09902297093343866,
+    "silicon": 0.06873604480498759,
+    "diff": 0.030286926128451075
+   },
+   "race|church": {
+    "human": 0.09091632068949208,
+    "silicon": 0.06347178806361607,
+    "diff": 0.02744453262587601
+   },
+   "race|patriotism": {
+    "human": 0.1689675215104966,
+    "silicon": 0.07605862859372457,
+    "diff": 0.09290889291677203
+   },
+   "race|discuss": {
+    "human": 0.13520485474273006,
+    "silicon": 0.05367574834979205,
+    "diff": 0.081529106392938
+   },
+   "race|interest": {
+    "human": 0.05993040484936945,
+    "silicon": 0.11137253258606788,
+    "diff": -0.051442127736698436
+   },
+   "race|ideology": {
+    "human": 0.11195425123568113,
+    "silicon": 0.10583374240822753,
+    "diff": 0.006120508827453602
+   },
+   "race|pid7": {
+    "human": 0.18411532257827223,
+    "silicon": 0.09435189546678659,
+    "diff": 0.08976342711148565
+   },
+   "race|vote2016": {
+    "human": 0.1712452085143504,
+    "silicon": 0.11008675419126376,
+    "diff": 0.06115845432308664
+   },
+   "age|education": {
+    "human": 0.2443995334874366,
+    "silicon": 0.20540029872941898,
+    "diff": 0.038999234758017615
+   },
+   "age|church": {
+    "human": 0.20141687885747597,
+    "silicon": 0.1869777574332415,
+    "diff": 0.01443912142423448
+   },
+   "age|patriotism": {
+    "human": 0.20522789635191319,
+    "silicon": 0.20986305236562713,
+    "diff": -0.004635156013713948
+   },
+   "age|discuss": {
+    "human": 0.20760075759020052,
+    "silicon": 0.20844032322833272,
+    "diff": -0.0008395656381322003
+   },
+   "age|interest": {
+    "human": 0.21568282478546752,
+    "silicon": 0.21400752123373504,
+    "diff": 0.0016753035517324821
+   },
+   "age|ideology": {
+    "human": 0.22812855738397117,
+    "silicon": 0.20248618135281213,
+    "diff": 0.025642376031159042
+   },
+   "age|pid7": {
+    "human": 0.21833926276176188,
+    "silicon": 0.2037599241174535,
+    "diff": 0.014579338644308382
+   },
+   "age|vote2016": {
+    "human": 0.2431404283197779,
+    "silicon": 0.22344222252590956,
+    "diff": 0.01969820579386833
+   },
+   "education|church": {
+    "human": 0.06374752285972096,
+    "silicon": 0.08760015997485579,
+    "diff": -0.023852637115134828
+   },
+   "education|patriotism": {
+    "human": 0.08780264070210918,
+    "silicon": 0.048325105125216164,
+    "diff": 0.039477535576893014
+   },
+   "education|discuss": {
+    "human": 0.19745000505567215,
+    "silicon": 0.07356954757367008,
+    "diff": 0.12388045748200206
+   },
+   "education|interest": {
+    "human": 0.11803086253549444,
+    "silicon": 0.06689188337069116,
+    "diff": 0.05113897916480328
+   },
+   "education|ideology": {
+    "human": 0.12531561539675504,
+    "silicon": 0.09193790648851674,
+    "diff": 0.033377708908238296
+   },
+   "education|pid7": {
+    "human": 0.10807719817526389,
+    "silicon": 0.07995815641467297,
+    "diff": 0.02811904176059092
+   },
+   "education|vote2016": {
+    "human": 0.14206022005524985,
+    "silicon": 0.08845429119249007,
+    "diff": 0.05360592886275978
+   },
+   "church|patriotism": {
+    "human": 0.20327932859732084,
+    "silicon": 0.05041436238269427,
+    "diff": 0.15286496621462659
+   },
+   "church|discuss": {
+    "human": 0.014491822406416915,
+    "silicon": 0.14254770115077528,
+    "diff": -0.12805587874435836
+   },
+   "church|interest": {
+    "human": 0.03594336899371393,
+    "silicon": 0.08415980081640322,
+    "diff": -0.04821643182268929
+   },
+   "church|ideology": {
+    "human": 0.2808326425929697,
+    "silicon": 0.12078697125240055,
+    "diff": 0.16004567134056913
+   },
+   "church|pid7": {
+    "human": 0.22020609387312093,
+    "silicon": 0.19462562630626,
+    "diff": 0.025580467566860915
+   },
+   "church|vote2016": {
+    "human": 0.18844751835725332,
+    "silicon": 0.2428701227943234,
+    "diff": -0.05442260443707009
+   },
+   "patriotism|discuss": {
+    "human": 0.026568825396322507,
+    "silicon": 0.08538926110814486,
+    "diff": -0.058820435711822355
+   },
+   "patriotism|interest": {
+    "human": 0.0789629733411211,
+    "silicon": 0.16782498094173923,
+    "diff": -0.08886200760061813
+   },
+   "patriotism|ideology": {
+    "human": 0.22313262919733787,
+    "silicon": 0.1445951844634516,
+    "diff": 0.07853744473388627
+   },
+   "patriotism|pid7": {
+    "human": 0.18815303462013627,
+    "silicon": 0.15646871505705032,
+    "diff": 0.031684319563085955
+   },
+   "patriotism|vote2016": {
+    "human": 0.2543857524538499,
+    "silicon": 0.15121307830783298,
+    "diff": 0.10317267414601694
+   },
+   "discuss|interest": {
+    "human": 0.3987176259330474,
+    "silicon": 0.2871424787649272,
+    "diff": 0.11157514716812017
+   },
+   "discuss|ideology": {
+    "human": 0.1687100007571922,
+    "silicon": 0.06092690239105443,
+    "diff": 0.10778309836613777
+   },
+   "discuss|pid7": {
+    "human": 0.1678102738412633,
+    "silicon": 0.11532867376836549,
+    "diff": 0.0524816000728978
+   },
+   "discuss|vote2016": {
+    "human": 0.10970633487289828,
+    "silicon": 0.19897421160480488,
+    "diff": -0.0892678767319066
+   },
+   "interest|ideology": {
+    "human": 0.15316476346559588,
+    "silicon": 0.10435179952835767,
+    "diff": 0.048812963937238205
+   },
+   "interest|pid7": {
+    "human": 0.1207739330362039,
+    "silicon": 0.11963170653179256,
+    "diff": 0.0011422265044113422
+   },
+   "interest|vote2016": {
+    "human": 0.11954446206158796,
+    "silicon": 0.11888895962408971,
+    "diff": 0.0006555024374982482
+   },
+   "ideology|pid7": {
+    "human": 0.36522427083072917,
+    "silicon": 0.3234141125490513,
+    "diff": 0.04181015828167789
+   },
+   "ideology|vote2016": {
+    "human": 0.39833042268633606,
+    "silicon": 0.28256296807629583,
+    "diff": 0.11576745461004023
+   },
+   "pid7|vote2016": {
+    "human": 0.47449492978904406,
+    "silicon": 0.3660987158448724,
+    "diff": 0.10839621394417165
+   }
+  },
+  "n_pairs_defined": 55,
+  "mean_diff_human_minus_silicon": 0.027427677064050783,
+  "mean_abs_diff": 0.0511359377100254,
+  "correlation": 0.7856495835961986
+ },
+ "paper_cramersv": {
+  "education|gender": [
+   0.04,
+   0.04,
+   0.0
+  ],
+  "gender|ideology": [
+   0.13,
+   0.12,
+   0.01
+  ],
+  "gender|pid7": [
+   0.16,
+   0.12,
+   0.04
+  ],
+  "gender|vote.2016": [
+   0.09,
+   0.19,
+   -0.1
+  ],
+  "gender|patriotism": [
+   0.06,
+   0.09,
+   -0.03
+  ],
+  "discuss.politics|gender": [
+   0.0,
+   0.08,
+   -0.08
+  ],
+  "gender|political.interest": [
+   0.12,
+   0.11,
+   0.01
+  ],
+  "age|gender": [
+   0.18,
+   0.2,
+   -0.02
+  ],
+  "church.goer|gender": [
+   0.04,
+   0.02,
+   0.02
+  ],
+  "gender|race": [
+   0.07,
+   0.07,
+   0.0
+  ],
+  "education|race": [
+   0.1,
+   0.04,
+   0.06
+  ],
+  "ideology|race": [
+   0.11,
+   0.09,
+   0.02
+  ],
+  "pid7|race": [
+   0.18,
+   0.07,
+   0.11
+  ],
+  "race|vote.2016": [
+   0.17,
+   0.06,
+   0.11
+  ],
+  "patriotism|race": [
+   0.17,
+   0.09,
+   0.08
+  ],
+  "discuss.politics|race": [
+   0.13,
+   0.02,
+   0.11
+  ],
+  "political.interest|race": [
+   0.06,
+   0.04,
+   0.02
+  ],
+  "age|race": [
+   0.2,
+   0.2,
+   0.0
+  ],
+  "church.goer|race": [
+   0.09,
+   0.04,
+   0.05
+  ],
+  "church.goer|education": [
+   0.06,
+   0.09,
+   -0.03
+  ],
+  "church.goer|ideology": [
+   0.28,
+   0.07,
+   0.21
+  ],
+  "church.goer|pid7": [
+   0.22,
+   0.11,
+   0.11
+  ],
+  "church.goer|vote.2016": [
+   0.19,
+   0.19,
+   0.0
+  ],
+  "church.goer|patriotism": [
+   0.2,
+   0.05,
+   0.15
+  ],
+  "church.goer|discuss.politics": [
+   0.01,
+   0.18,
+   -0.17
+  ],
+  "church.goer|political.interest": [
+   0.04,
+   0.11,
+   -0.07
+  ],
+  "age|church.goer": [
+   0.2,
+   0.18,
+   0.02
+  ],
+  "education|patriotism": [
+   0.09,
+   0.05,
+   0.04
+  ],
+  "ideology|patriotism": [
+   0.22,
+   0.14,
+   0.08
+  ],
+  "patriotism|pid7": [
+   0.19,
+   0.15,
+   0.04
+  ],
+  "patriotism|vote.2016": [
+   0.25,
+   0.16,
+   0.09
+  ],
+  "discuss.politics|patriotism": [
+   0.02,
+   0.1,
+   -0.08
+  ],
+  "patriotism|political.interest": [
+   0.08,
+   0.16,
+   -0.08
+  ],
+  "age|patriotism": [
+   0.2,
+   0.21,
+   -0.00999999999999998
+  ],
+  "education|ideology": [
+   0.12,
+   0.09,
+   0.03
+  ],
+  "ideology|pid7": [
+   0.37,
+   0.32,
+   0.05
+  ],
+  "ideology|vote.2016": [
+   0.4,
+   0.33,
+   0.07
+  ],
+  "discuss.politics|ideology": [
+   0.16,
+   0.06,
+   0.1
+  ],
+  "ideology|political.interest": [
+   0.15,
+   0.1,
+   0.05
+  ],
+  "age|ideology": [
+   0.23,
+   0.2,
+   0.03
+  ],
+  "education|pid7": [
+   0.11,
+   0.08,
+   0.03
+  ],
+  "pid7|vote.2016": [
+   0.47,
+   0.37,
+   0.1
+  ],
+  "discuss.politics|pid7": [
+   0.16,
+   0.11,
+   0.05
+  ],
+  "pid7|political.interest": [
+   0.12,
+   0.12,
+   0.0
+  ],
+  "age|pid7": [
+   0.22,
+   0.2,
+   0.02
+  ],
+  "education|vote.2016": [
+   0.14,
+   0.08,
+   0.06
+  ],
+  "discuss.politics|vote.2016": [
+   0.11,
+   0.2,
+   -0.09
+  ],
+  "political.interest|vote.2016": [
+   0.12,
+   0.12,
+   0.0
+  ],
+  "age|vote.2016": [
+   0.24,
+   0.22,
+   0.02
+  ],
+  "discuss.politics|education": [
+   0.2,
+   0.07,
+   0.13
+  ],
+  "discuss.politics|political.interest": [
+   0.4,
+   0.16,
+   0.24
+  ],
+  "age|discuss.politics": [
+   0.21,
+   0.21,
+   0.0
+  ],
+  "education|political.interest": [
+   0.11,
+   0.07,
+   0.04
+  ],
+  "age|political.interest": [
+   0.22,
+   0.21,
+   0.01
+  ],
+  "age|education": [
+   0.24,
+   0.23,
+   0.00999999999999998
+  ]
+ },
+ "control": {
+  "local": {
+   "items": {
+    "gender": {
+     "n": 99,
+     "tv_distance": 0.33333333333333337,
+     "entropy_human": 0.9993375041688847,
+     "entropy_silicon": 0.6136190195993708,
+     "modal_share_human": 0.5151515151515151,
+     "modal_share_silicon": 0.8484848484848485,
+     "mean_human": 1.4848484848484849,
+     "mean_silicon": 1.1515151515151516,
+     "human_dist": {
+      "1": 0.5152,
+      "2": 0.4848
+     },
+     "silicon_dist": {
+      "1": 0.8485,
+      "2": 0.1515
+     }
+    },
+    "race": {
+     "n": 97,
+     "tv_distance": 0.24742268041237112,
+     "entropy_human": 1.1363593534421605,
+     "entropy_silicon": -0.0,
+     "modal_share_human": 0.7525773195876289,
+     "modal_share_silicon": 1.0,
+     "mean_human": 1.6082474226804124,
+     "mean_silicon": 1.0,
+     "human_dist": {
+      "1": 0.7526,
+      "2": 0.1134,
+      "3": 0.0206,
+      "5": 0.1134
+     },
+     "silicon_dist": {
+      "1": 1.0,
+      "2": 0.0,
+      "3": 0.0,
+      "5": 0.0
+     }
+    },
+    "age": {
+     "n": 98,
+     "tv_distance": 0.8163265306122449,
+     "entropy_human": 5.381099099323565,
+     "entropy_silicon": 2.6153023773151967,
+     "modal_share_human": 0.05102040816326531,
+     "modal_share_silicon": 0.4489795918367347,
+     "mean_human": 45.12244897959184,
+     "mean_silicon": 58.46938775510204,
+     "sd_human": 17.177223775135534,
+     "sd_silicon": 10.0002103912225
+    },
+    "education": {
+     "n": 100,
+     "tv_distance": 0.4000000000000001,
+     "entropy_human": 1.9472520862272278,
+     "entropy_silicon": 0.9685806015045625,
+     "modal_share_human": 0.35,
+     "modal_share_silicon": 0.68,
+     "mean_human": 2.31,
+     "mean_silicon": 2.3,
+     "sd_human": 1.02193122779541,
+     "sd_silicon": 0.4819992036541475,
+     "human_dist": {
+      "1": 0.25,
+      "2": 0.35,
+      "3": 0.24,
+      "4": 0.16
+     },
+     "silicon_dist": {
+      "1": 0.01,
+      "2": 0.68,
+      "3": 0.31,
+      "4": 0.0
+     }
+    },
+    "church": {
+     "n": 99,
+     "tv_distance": 0.26262626262626265,
+     "entropy_human": 0.9456603046006401,
+     "entropy_silicon": 0.47218938467675076,
+     "modal_share_human": 0.6363636363636364,
+     "modal_share_silicon": 0.898989898989899,
+     "mean_human": 1.3636363636363635,
+     "mean_silicon": 1.101010101010101,
+     "human_dist": {
+      "1": 0.6364,
+      "2": 0.3636
+     },
+     "silicon_dist": {
+      "1": 0.899,
+      "2": 0.101
+     }
+    },
+    "patriotism": {
+     "n": 89,
+     "tv_distance": 0.752808988764045,
+     "entropy_human": 1.6058427684862886,
+     "entropy_silicon": 0.9501902876053314,
+     "modal_share_human": 0.5393258426966292,
+     "modal_share_silicon": 0.8202247191011236,
+     "mean_human": 2.0786516853932584,
+     "mean_silicon": 2.2808988764044944,
+     "sd_human": 1.391734685245879,
+     "sd_silicon": 1.138068180224556,
+     "human_dist": {
+      "1": 0.5393,
+      "2": 0.1573,
+      "3": 0.0225,
+      "4": 0.2697,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0112
+     },
+     "silicon_dist": {
+      "1": 0.0674,
+      "2": 0.8202,
+      "3": 0.0337,
+      "4": 0.0,
+      "5": 0.0,
+      "6": 0.0787,
+      "7": 0.0
+     }
+    },
+    "discuss": {
+     "n": 89,
+     "tv_distance": 0.1797752808988764,
+     "entropy_human": 0.6795851972782937,
+     "entropy_silicon": -0.0,
+     "modal_share_human": 0.8202247191011236,
+     "modal_share_silicon": 1.0,
+     "mean_human": 1.1797752808988764,
+     "mean_silicon": 1.0,
+     "human_dist": {
+      "1": 0.8202,
+      "2": 0.1798
+     },
+     "silicon_dist": {
+      "1": 1.0,
+      "2": 0.0
+     }
+    },
+    "interest": {
+     "n": 89,
+     "tv_distance": 0.348314606741573,
+     "entropy_human": 1.7284102894171463,
+     "entropy_silicon": 1.153653341931642,
+     "modal_share_human": 0.4943820224719101,
+     "modal_share_silicon": 0.6853932584269663,
+     "mean_human": 2.067415730337079,
+     "mean_silicon": 2.393258426966292,
+     "sd_human": 0.8633675190390027,
+     "sd_silicon": 0.9368464695224017,
+     "human_dist": {
+      "1": 0.2584,
+      "2": 0.4944,
+      "3": 0.1685,
+      "4": 0.0787
+     },
+     "silicon_dist": {
+      "1": 0.0787,
+      "2": 0.6854,
+      "3": 0.0,
+      "4": 0.236
+     }
+    },
+    "ideology": {
+     "n": 79,
+     "tv_distance": 0.7468354430379747,
+     "entropy_human": 2.555502338607954,
+     "entropy_silicon": -0.0,
+     "modal_share_human": 0.25316455696202533,
+     "modal_share_silicon": 1.0,
+     "mean_human": 3.9367088607594938,
+     "mean_silicon": 4.0,
+     "sd_human": 1.563541116954607,
+     "sd_silicon": 0.0,
+     "human_dist": {
+      "1": 0.0633,
+      "2": 0.1646,
+      "3": 0.1392,
+      "4": 0.2532,
+      "5": 0.1772,
+      "6": 0.1899,
+      "7": 0.0127
+     },
+     "silicon_dist": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 1.0,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.0
+     }
+    },
+    "pid7": {
+     "n": 100,
+     "tv_distance": 0.6300000000000001,
+     "entropy_human": 2.771351745157613,
+     "entropy_silicon": 1.4997251339930842,
+     "modal_share_human": 0.2,
+     "modal_share_silicon": 0.42,
+     "mean_human": 3.79,
+     "mean_silicon": 3.56,
+     "sd_human": 2.0464060637561103,
+     "sd_silicon": 1.4655643240331653,
+     "human_dist": {
+      "1": 0.2,
+      "2": 0.1,
+      "3": 0.18,
+      "4": 0.14,
+      "5": 0.12,
+      "6": 0.13,
+      "7": 0.13
+     },
+     "silicon_dist": {
+      "1": 0.0,
+      "2": 0.4,
+      "3": 0.0,
+      "4": 0.42,
+      "5": 0.0,
+      "6": 0.18,
+      "7": 0.0
+     }
+    },
+    "voted": {
+     "n": 81,
+     "tv_distance": 0.09876543209876543,
+     "entropy_human": 0.46506984488164627,
+     "entropy_silicon": -0.0,
+     "modal_share_human": 0.9012345679012346,
+     "modal_share_silicon": 1.0,
+     "mean_human": 0.9012345679012346,
+     "mean_silicon": 1.0,
+     "human_dist": {
+      "0": 0.0988,
+      "1": 0.9012
+     },
+     "silicon_dist": {
+      "0": 0.0,
+      "1": 1.0
+     }
+    },
+    "vote": {
+     "n": 72,
+     "tv_distance": 0.5416666666666666,
+     "entropy_human": 1.3304835169703004,
+     "entropy_silicon": -0.0,
+     "modal_share_human": 0.4583333333333333,
+     "modal_share_silicon": 1.0,
+     "mean_human": 1.625,
+     "mean_silicon": 2.0,
+     "human_dist": {
+      "1": 0.4583,
+      "2": 0.4583,
+      "3": 0.0833
+     },
+     "silicon_dist": {
+      "1": 0.0,
+      "2": 1.0,
+      "3": 0.0
+     }
+    }
+   },
+   "vote_by_pid7": {
+    "1": {
+     "n": 17,
+     "tv_distance": 0.9411764705882353,
+     "entropy_human": 0.3227569588973982,
+     "entropy_silicon": -0.0
+    },
+    "3": {
+     "n": 11,
+     "tv_distance": 0.8181818181818181,
+     "entropy_human": 1.0957952550009336,
+     "entropy_silicon": -0.0
+    },
+    "5": {
+     "n": 10,
+     "tv_distance": 0.19999999999999996,
+     "entropy_human": 0.9219280948873623,
+     "entropy_silicon": -0.0
+    },
+    "7": {
+     "n": 11,
+     "tv_distance": 0.0,
+     "entropy_human": -0.0,
+     "entropy_silicon": -0.0
+    }
+   },
+   "ideology_by_pid7": {
+    "1": {
+     "n": 14,
+     "tv_distance": 0.8571428571428571,
+     "entropy_human": 2.1179631753145163,
+     "entropy_silicon": -0.0
+    },
+    "3": {
+     "n": 14,
+     "tv_distance": 0.8571428571428571,
+     "entropy_human": 2.2359263506290326,
+     "entropy_silicon": -0.0
+    },
+    "4": {
+     "n": 11,
+     "tv_distance": 0.4545454545454546,
+     "entropy_human": 1.617189572592715,
+     "entropy_silicon": -0.0
+    },
+    "5": {
+     "n": 12,
+     "tv_distance": 0.6666666666666667,
+     "entropy_human": 1.8553885422075338,
+     "entropy_silicon": -0.0
+    },
+    "7": {
+     "n": 11,
+     "tv_distance": 0.9999999999999999,
+     "entropy_human": 1.2776134368191154,
+     "entropy_silicon": -0.0
+    }
+   },
+   "vote_regression": {
+    "n": 59,
+    "human": {
+     "intercept": 0.4711853556994997,
+     "ideology (centered)": 0.7096904898323749,
+     "pid7 (centered)": 1.370996300954011
+    },
+    "silicon": {
+     "intercept": 10.898642163795285,
+     "ideology (centered)": -0.01055698029161747,
+     "pid7 (centered)": -0.008899070994360629
+    }
+   }
+  },
+  "gpt3": {
+   "items": {
+    "gender": {
+     "n": 4218,
+     "tv_distance": 0.2697961119013751,
+     "entropy_human": 0.9975847976842149,
+     "entropy_silicon": 0.825426975560778,
+     "modal_share_human": 0.5289236605026079,
+     "modal_share_silicon": 0.7408724513987672,
+     "mean_human": 1.528923660502608,
+     "mean_silicon": 1.2591275486012328,
+     "human_dist": {
+      "1": 0.4711,
+      "2": 0.5289
+     },
+     "silicon_dist": {
+      "1": 0.7409,
+      "2": 0.2591
+     }
+    },
+    "race": {
+     "n": 4030,
+     "tv_distance": 0.21687344913151368,
+     "entropy_human": 1.1656946547067328,
+     "entropy_silicon": 0.2090562131986384,
+     "modal_share_human": 0.7531017369727047,
+     "modal_share_silicon": 0.9699751861042184,
+     "mean_human": 1.6186104218362283,
+     "mean_silicon": 1.0359801488833746,
+     "human_dist": {
+      "1": 0.7531,
+      "2": 0.0985,
+      "3": 0.0367,
+      "5": 0.1117
+     },
+     "silicon_dist": {
+      "1": 0.97,
+      "2": 0.0275,
+      "3": 0.0007,
+      "5": 0.0017
+     }
+    },
+    "age": {
+     "n": 3939,
+     "tv_distance": 0.4160954556994161,
+     "entropy_human": 6.03682457429366,
+     "entropy_silicon": 5.333818072219189,
+     "modal_share_human": 0.023863924854023864,
+     "modal_share_silicon": 0.05686722518405687,
+     "mean_human": 49.52170601675552,
+     "mean_silicon": 34.935770500126935,
+     "sd_human": 17.5890168282699,
+     "sd_silicon": 12.417250222247375
+    },
+    "education": {
+     "n": 3648,
+     "tv_distance": 0.3105811403508772,
+     "entropy_human": 1.9432291518304263,
+     "entropy_silicon": 1.2464168629571075,
+     "modal_share_human": 0.35910087719298245,
+     "modal_share_silicon": 0.6570723684210527,
+     "mean_human": 2.296326754385965,
+     "mean_silicon": 2.131030701754386,
+     "sd_human": 1.0227291856851448,
+     "sd_silicon": 0.5744222129098374,
+     "human_dist": {
+      "1": 0.2544,
+      "2": 0.3591,
+      "3": 0.2223,
+      "4": 0.1642
+     },
+     "silicon_dist": {
+      "1": 0.1066,
+      "2": 0.6571,
+      "3": 0.2349,
+      "4": 0.0014
+     }
+    },
+    "church": {
+     "n": 4248,
+     "tv_distance": 0.0007062146892655441,
+     "entropy_human": 0.9709230471849015,
+     "entropy_silicon": 0.9705082388297817,
+     "modal_share_human": 0.6000470809792844,
+     "modal_share_silicon": 0.60075329566855,
+     "mean_human": 1.3999529190207156,
+     "mean_silicon": 1.39924670433145,
+     "human_dist": {
+      "1": 0.6,
+      "2": 0.4
+     },
+     "silicon_dist": {
+      "1": 0.6008,
+      "2": 0.3992
+     }
+    },
+    "patriotism": {
+     "n": 3621,
+     "tv_distance": 0.32836233084783206,
+     "entropy_human": 1.7459952322042753,
+     "entropy_silicon": 1.1093619155087182,
+     "modal_share_human": 0.5371444352388843,
+     "modal_share_silicon": 0.7611157138911903,
+     "mean_human": 1.9547086440209887,
+     "mean_silicon": 1.4316487158243578,
+     "sd_human": 1.2930511496400603,
+     "sd_silicon": 0.8829779248610118,
+     "human_dist": {
+      "1": 0.5371,
+      "2": 0.2193,
+      "3": 0.04,
+      "4": 0.182,
+      "5": 0.0044,
+      "6": 0.011,
+      "7": 0.0061
+     },
+     "silicon_dist": {
+      "1": 0.7611,
+      "2": 0.0859,
+      "3": 0.1367,
+      "4": 0.0003,
+      "5": 0.0122,
+      "6": 0.0003,
+      "7": 0.0036
+     }
+    },
+    "discuss": {
+     "n": 3642,
+     "tv_distance": 0.06205381658429439,
+     "entropy_human": 0.689264030340007,
+     "entropy_silicon": 0.5356108791305322,
+     "modal_share_human": 0.8157605711147721,
+     "modal_share_silicon": 0.8778143876990665,
+     "mean_human": 1.1842394288852278,
+     "mean_silicon": 1.1221856123009335,
+     "human_dist": {
+      "1": 0.8158,
+      "2": 0.1842
+     },
+     "silicon_dist": {
+      "1": 0.8778,
+      "2": 0.1222
+     }
+    },
+    "interest": {
+     "n": 3594,
+     "tv_distance": 0.29104062326099056,
+     "entropy_human": 1.7500553020237182,
+     "entropy_silicon": 1.5982738535315941,
+     "modal_share_human": 0.4894268224819143,
+     "modal_share_silicon": 0.5153032832498609,
+     "mean_human": 2.1424596549805233,
+     "mean_silicon": 1.7404006677796326,
+     "sd_human": 0.855404822701717,
+     "sd_silicon": 0.8685996201003766,
+     "human_dist": {
+      "1": 0.2243,
+      "2": 0.4894,
+      "3": 0.2059,
+      "4": 0.0804
+     },
+     "silicon_dist": {
+      "1": 0.5153,
+      "2": 0.2543,
+      "3": 0.2051,
+      "4": 0.0253
+     }
+    },
+    "ideology": {
+     "n": 3159,
+     "tv_distance": 0.32162076606521056,
+     "entropy_human": 2.590975153766306,
+     "entropy_silicon": 2.6104432681786855,
+     "modal_share_human": 0.2709718265273821,
+     "modal_share_silicon": 0.2674897119341564,
+     "mean_human": 4.163659385881608,
+     "mean_silicon": 4.043051598607154,
+     "sd_human": 1.60137568486347,
+     "sd_silicon": 1.7574725092679613,
+     "human_dist": {
+      "1": 0.0453,
+      "2": 0.1557,
+      "3": 0.114,
+      "4": 0.271,
+      "5": 0.1529,
+      "6": 0.2115,
+      "7": 0.0497
+     },
+     "silicon_dist": {
+      "1": 0.057,
+      "2": 0.1744,
+      "3": 0.2067,
+      "4": 0.1102,
+      "5": 0.2675,
+      "6": 0.0506,
+      "7": 0.1336
+     }
+    },
+    "pid7": {
+     "n": 4095,
+     "tv_distance": 0.27765567765567767,
+     "entropy_human": 2.7727231722032695,
+     "entropy_silicon": 2.4525849613533097,
+     "modal_share_human": 0.21074481074481075,
+     "modal_share_silicon": 0.29304029304029305,
+     "mean_human": 3.8456654456654458,
+     "mean_silicon": 4.389010989010989,
+     "sd_human": 2.152494863679862,
+     "sd_silicon": 2.064027956592375,
+     "human_dist": {
+      "1": 0.2107,
+      "2": 0.1321,
+      "3": 0.1184,
+      "4": 0.1353,
+      "5": 0.115,
+      "6": 0.1197,
+      "7": 0.1687
+     },
+     "silicon_dist": {
+      "1": 0.1177,
+      "2": 0.1917,
+      "3": 0.0,
+      "4": 0.0857,
+      "5": 0.293,
+      "6": 0.1031,
+      "7": 0.2088
+     }
+    },
+    "voted": {
+     "n": 3331,
+     "tv_distance": 0.038126688682077456,
+     "entropy_human": 0.5664014032961684,
+     "entropy_silicon": 0.6609428381072392,
+     "modal_share_human": 0.8667066946862804,
+     "modal_share_silicon": 0.8285800060042029,
+     "mean_human": 0.8667066946862804,
+     "mean_silicon": 0.8285800060042029,
+     "human_dist": {
+      "0": 0.1333,
+      "1": 0.8667
+     },
+     "silicon_dist": {
+      "0": 0.1714,
+      "1": 0.8286
+     }
+    },
+    "vote": {
+     "n": 2791,
+     "tv_distance": 0.4288785381583662,
+     "entropy_human": 1.2980216487683693,
+     "entropy_silicon": 1.4997390519662925,
+     "modal_share_human": 0.48584736653529204,
+     "modal_share_silicon": 0.5001791472590469,
+     "mean_human": 1.5854532425653887,
+     "mean_silicon": 2.246506628448585,
+     "human_dist": {
+      "1": 0.4858,
+      "2": 0.4429,
+      "3": 0.0713
+     },
+     "silicon_dist": {
+      "1": 0.2537,
+      "2": 0.2461,
+      "3": 0.5002
+     }
+    }
+   },
+   "vote_by_pid7": {
+    "1": {
+     "n": 666,
+     "tv_distance": 0.44144144144144143,
+     "entropy_human": 0.2551950585304549,
+     "entropy_silicon": 1.1288576902242453
+    },
+    "2": {
+     "n": 367,
+     "tv_distance": 0.6076294277929155,
+     "entropy_human": 0.9612999606520846,
+     "entropy_silicon": 1.1171277849794803
+    },
+    "3": {
+     "n": 311,
+     "tv_distance": 0.3890675241157556,
+     "entropy_human": 0.9016413757071644,
+     "entropy_silicon": 1.2911768756163513
+    },
+    "4": {
+     "n": 238,
+     "tv_distance": 0.5294117647058824,
+     "entropy_human": 1.495157161538324,
+     "entropy_silicon": 1.1013391134839638
+    },
+    "5": {
+     "n": 342,
+     "tv_distance": 0.38596491228070173,
+     "entropy_human": 0.8960238623571962,
+     "entropy_silicon": 1.329842942376887
+    },
+    "6": {
+     "n": 323,
+     "tv_distance": 0.5356037151702787,
+     "entropy_human": 1.09180849704821,
+     "entropy_silicon": 1.270612860207847
+    },
+    "7": {
+     "n": 540,
+     "tv_distance": 0.24074074074074073,
+     "entropy_human": 0.29658989155733956,
+     "entropy_silicon": 0.9850355717818295
+    }
+   },
+   "ideology_by_pid7": {
+    "1": {
+     "n": 646,
+     "tv_distance": 0.2848297213622291,
+     "entropy_human": 2.1585833396079437,
+     "entropy_silicon": 2.3017495316358922
+    },
+    "2": {
+     "n": 379,
+     "tv_distance": 0.2796833773087071,
+     "entropy_human": 2.2606590025877935,
+     "entropy_silicon": 2.154632387024825
+    },
+    "3": {
+     "n": 392,
+     "tv_distance": 0.3061224489795918,
+     "entropy_human": 2.1768172649428905,
+     "entropy_silicon": 2.1783820661936826
+    },
+    "4": {
+     "n": 331,
+     "tv_distance": 0.3987915407854985,
+     "entropy_human": 1.9342138364604045,
+     "entropy_silicon": 2.4626805200542408
+    },
+    "5": {
+     "n": 408,
+     "tv_distance": 0.32598039215686275,
+     "entropy_human": 2.0699382574017893,
+     "entropy_silicon": 2.1869152319990697
+    },
+    "6": {
+     "n": 389,
+     "tv_distance": 0.3496143958868894,
+     "entropy_human": 1.9457454723023133,
+     "entropy_silicon": 2.017745641018144
+    },
+    "7": {
+     "n": 609,
+     "tv_distance": 0.5188834154351396,
+     "entropy_human": 1.6432223052465802,
+     "entropy_silicon": 2.024339185023091
+    }
+   },
+   "vote_regression": {
+    "n": 1157,
+    "human": {
+     "intercept": -0.27008751090041455,
+     "ideology (centered)": 0.7435695622390548,
+     "pid7 (centered)": 1.0844310568416742
+    },
+    "silicon": {
+     "intercept": -0.23063008317305095,
+     "ideology (centered)": 0.35719829172419537,
+     "pid7 (centered)": 0.8163226215959026
+    }
+   }
+  }
+ }
+}

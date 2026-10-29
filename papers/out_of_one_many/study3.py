@@ -98,5 +98,6 @@ def cramers_matrix(h_frame: pd.DataFrame, s_frame: Optional[pd.DataFrame] = None
         pairs[f"{x}|{y}"] = {"human": hv, "silicon": sv, "diff": hv - sv}
     diffs = np.array([p["diff"] for p in pairs.values()])
     hs = np.array([p["human"] for p in pairs.values()]); ss = np.array([p["silicon"] for p in pairs.values()])
-    return {"n_complete": int(len(h_frame)), "pairs": pairs, "mean_diff_human_minus_silicon": float(np.nanmean(diffs)), "mean_abs_diff": float(np.nanmean(np.abs(diffs))),
-            "correlation": float(np.corrcoef(hs, ss)[0, 1]) if len(hs) > 2 else float("nan")}
+    ok = ~(np.isnan(hs) | np.isnan(ss))  # a pair is undefined when a variable has a single category in the (silicon) sample
+    return {"n_complete": int(len(h_frame)), "pairs": pairs, "n_pairs_defined": int(ok.sum()), "mean_diff_human_minus_silicon": float(np.nanmean(diffs)),
+            "mean_abs_diff": float(np.nanmean(np.abs(diffs))), "correlation": float(np.corrcoef(hs[ok], ss[ok])[0, 1]) if ok.sum() > 2 else float("nan")}

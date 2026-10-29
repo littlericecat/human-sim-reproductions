@@ -10,6 +10,7 @@ from typing import Any, Optional
 
 import numpy as np
 import pandas as pd
+from scipy import stats as sps
 
 from hsr.llm import LLM
 from papers.out_of_one_many import data as D
@@ -62,6 +63,18 @@ def evaluate(human: pd.DataFrame, silicon: pd.DataFrame) -> dict[str, Any]:
     d = d[d["vote"].isin([1, 2]) & d["silicon_vote"].notna()].copy()
     d["human_rep"] = (d["vote"] == 2).astype(int)
     d["silicon_rep"] = d["silicon_vote"].astype(int)
+    # Threshold-free diagnostics (not in the paper): does P(Republican) rank voters correctly even when the model's
+    # marginal is miscalibrated? AUC, Spearman, and a split at the quantile that matches the human Republican share.
+    y, p = d["human_rep"].values, d["p_republican"].values.astype(float)
+    diag: dict[str, Any] = {"mean_p_republican": float(p.mean()), "silicon_rep_share_at_0.5": float(d["silicon_rep"].mean()), "human_rep_share": float(y.mean())}
+    if 0 < y.mean() < 1:
+        diag["auc"] = float(sps.mannwhitneyu(p[y == 1], p[y == 0]).statistic / (np.sum(y == 1) * np.sum(y == 0)))
+        diag["spearman"] = float(sps.spearmanr(p, y).statistic)
+        thr = float(np.quantile(p, 1 - y.mean()))
+        sil_q = (p > thr).astype(int)
+        diag["quantile_matched"] = {"threshold": thr, "agreement": S.agreement(y, sil_q), "tetrachoric": S.tetrachoric(y, sil_q), "kappa": S.kappa(y, sil_q)}
+    diag["mean_p_republican_by_pid7"] = {str(int(k)): float(v) for k, v in d.groupby("pid7")["p_republican"].mean().items()}
+    diag["mean_p_republican_by_ideology"] = {str(int(k)): float(v) for k, v in d.groupby("ideology")["p_republican"].mean().items()}
     rows = {}
     for name, mask in SUBGROUPS.items():
         sub = d[mask(d).fillna(False)]
@@ -71,4 +84,4 @@ def evaluate(human: pd.DataFrame, silicon: pd.DataFrame) -> dict[str, Any]:
         rows[name] = {"n": int(len(sub)), "tetrachoric": S.tetrachoric(sub["human_rep"], sub["silicon_rep"]), "kappa": S.kappa(sub["human_rep"], sub["silicon_rep"]),
                       "agreement": S.agreement(sub["human_rep"], sub["silicon_rep"]), "human_rep_share": float(sub["human_rep"].mean()),
                       "silicon_rep_share": float(sub["silicon_rep"].mean()), "mean_p_republican": float(sub["p_republican"].mean())}
-    return {"n_two_party": int(len(d)), "subgroups": rows}
+    return {"n_two_party": int(len(d)), "subgroups": rows, "diagnostics": diag}
